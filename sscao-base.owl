@@ -57,19 +57,14 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Classes
+    // Annotations
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SSCAO_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSCAO_0000000">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SSCAO_0000000">
         <rdfs:label xml:lang="en">root node</rdfs:label>
-    </owl:Class>
+    </rdf:Description>
 </rdf:RDF>
 
 

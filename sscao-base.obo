@@ -7,7 +7,3 @@ property_value: http://purl.org/dc/terms/license https://creativecommons.org/lic
 property_value: http://purl.org/dc/terms/title "Subset SCAO" xsd:string
 property_value: owl:versionInfo "2022-11-11" xsd:string
 
-[Term]
-id: SSCAO:0000000
-name: root node
-
