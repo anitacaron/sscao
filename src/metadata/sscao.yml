@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/sscao
+
+idspace: SSCAO
+base_url: /obo/sscao
+
+products:
+- sscao.owl: https://raw.githubusercontent.com/anitacaron/sscao/main/sscao.owl
+- sscao.obo: https://raw.githubusercontent.com/anitacaron/sscao/main/sscao.obo
+
+term_browser: ontobee
+example_terms:
+- SSCAO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/anitacaron/sscao/v
+
+- prefix: /tracker/
+  replacement: https://github.com/anitacaron/sscao/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/SSCAO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/anitacaron/sscao/main/

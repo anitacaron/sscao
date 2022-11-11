@@ -1,0 +1,8 @@
+id: sscao
+title: "Subset SCAO"
+github_org: anitacaron
+repo: sscao
+import_group:
+  products:
+    - id: ro
+    - id: fbbt
