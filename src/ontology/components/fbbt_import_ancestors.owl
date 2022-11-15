@@ -1,0 +1,1951 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/sscao/components/fbbt_import_ancestors.owl#"
+     xml:base="http://purl.obolibrary.org/obo/sscao/components/fbbt_import_ancestors.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/sscao/components/fbbt_import_ancestors.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/sscao/releases/2022-11-15/components/fbbt_import_ancestors.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000028 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000028"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000424 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0040042 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0040042"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+        <obo:IAO_0000111 xml:lang="en">is part of</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my brain is part of my body (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this day is part of this year (occurrent parthood)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a part and its whole</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
+
+A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An occurrent cannot be part of a continuant: use &apos;has participant&apos;. A material entity cannot be part of an immaterial entity: use &apos;has location&apos;. A specifically dependent continuant cannot be part of an independent continuant: use &apos;inheres in&apos;. An independent continuant cannot be part of a specifically dependent continuant: use &apos;bearer of&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <oboInOwl:hasDbXref>BFO:0000050</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OBO_REL:part_of</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>relationship</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>part_of</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_gp2term"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_gocam"/>
+        <oboInOwl:shorthand>part_of</oboInOwl:shorthand>
+        <rdfs:label>part of</rdfs:label>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+        <rdfs:label>part_of</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"/>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:PartOf"/>
+        <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002131 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002131">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002323"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>x overlaps y if and only if there exists some z such that x has part z and z part of y</obo:IAO_0000115>
+        <obo:IAO_0000424>http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)</obo:IAO_0000424>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <oboInOwl:hasDbXref>RO:0002131</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>overlaps</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_gocam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <oboInOwl:shorthand>overlaps</oboInOwl:shorthand>
+        <rdfs:label>overlaps</rdfs:label>
+        <rdfs:label xml:lang="en">overlaps</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002323 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002323">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000115>A mereological relationship or a topological relationship</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000232>Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships</obo:IAO_0000232>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <rdfs:label xml:lang="en">mereotopologically related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/caro.owl"/>
+        <rdfs:label xml:lang="en">anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000006"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/caro.owl"/>
+        <rdfs:label xml:lang="en">connected anatomical structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/caro.owl"/>
+        <rdfs:label xml:lang="en">material anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0030000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0030000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:label>biological entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <rdfs:label xml:lang="en">cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <rdfs:label xml:lang="en">neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100318"/>
+        <obo:IAO_0000115>Cell that has as its part a cytoskeleton that allows for tight cell to cell contact and which has apical-basal cell polarity.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CARO:0000077</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000066</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00000124</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#scrnaseq_slim"/>
+        <rdfs:label>epithelial cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00000124"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Cell that has as its part a cytoskeleton that allows for tight cell to cell contact and which has apical-basal cell polarity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:MAH</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00001366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00001366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005106"/>
+        <obo:IAO_0000115>Any neuron (FBbt:00005106) that has soma location some supraesophageal ganglion (FBbt:00003626).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00001366</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00001366</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:label>supraesophageal ganglion neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00001366"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any neuron (FBbt:00005106) that has soma location some supraesophageal ganglion (FBbt:00003626).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:Autogenerated</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00003660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00003660">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005125"/>
+        <obo:IAO_0000115>An interneuron that extends projections between different neuropil domains.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00003660</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00003660</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:label>extrinsic neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00003660"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An interneuron that extends projections between different neuropil domains.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:SPR</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00003925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00003925">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005386"/>
+        <obo:IAO_0000115>Discrete partition of the antennal lobe, defined by a specific set of sensory neurons (Bates et al., 2020). There are 51 olfactory and 7 non-olfactory (VP) glomeruli (Bates et al., 2020; Marin et al., 2020).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00003925</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>olfactory lobe glomerulus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>FBbt:00003925</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:label>antennal lobe glomerulus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00003925"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Discrete partition of the antennal lobe, defined by a specific set of sensory neurons (Bates et al., 2020). There are 51 olfactory and 7 non-olfactory (VP) glomeruli (Bates et al., 2020; Marin et al., 2020).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246456</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246460</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00003968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00003968">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00051292"/>
+        <obo:IAO_0000115>Dorso-lateral glomerulus of the adult antennal lobe. It lies lateral to glomerulus DM3 and medial to glomerulus DL5.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00003968</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>antennal glomerulus DL1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00003968</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:comment>Based on confocal microscopic analysis of glomeruli stained with the neuropil specific monoclonal antibody nc82.</rdfs:comment>
+        <rdfs:label>antennal lobe glomerulus DL1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00003968"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Dorso-lateral glomerulus of the adult antennal lobe. It lies lateral to glomerulus DM3 and medial to glomerulus DL5.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0107836</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00004860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00004860">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007002"/>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>germ cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>FBbt:00004860</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:label>germline cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00004861 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00004861">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004860"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007014"/>
+        <obo:IAO_0000115>Stem cell that is the precursor of gametes.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000086</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>GSC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00004861</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:label>germline stem cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004861"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Stem cell that is the precursor of gametes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004861"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>GSC</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0219716</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00004873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00004873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004861"/>
+        <obo:IAO_0000115>Female germline cell and stem cell from which all other female germline cells develop. Each of its divisions gives rise to one cystoblast and one female germline stem cell.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000022</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>female GSC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>oogonial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>oogonium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00004873</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#RD"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:label>female germline stem cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004873"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>oogonial cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0021038</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004873"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Female germline cell and stem cell from which all other female germline cells develop. Each of its divisions gives rise to one cystoblast and one female germline stem cell.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0017959</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004873"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>female GSC</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0219716</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00004875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00004875">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007010"/>
+        <obo:IAO_0000115>A developing unit of gametogenesis consisting of germline cells encapsulated by a layer of somatic cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00004875</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:label>germline cyst</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004875"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A developing unit of gametogenesis consisting of germline cells encapsulated by a layer of somatic cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00004893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00004893">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00048491"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100313"/>
+        <obo:IAO_0000115>An egg assembly line. Consists of a germarium at the anterior tip connected to a chain of egg chambers, each one more mature than the preceding, more anterior egg chamber in the chain. Each ovariole is encased in an ovarian sheath. A typical ovary contains about 16 ovarioles.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00004893</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#RD"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:comment>DISAMBIGUATION: The term ovariole is sometimes incorrectly used to refer to individual egg chambers. Please use the term &apos;egg chamber&apos; for this.</rdfs:comment>
+        <rdfs:label>ovariole</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004893"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An egg assembly line. Consists of a germarium at the anterior tip connected to a chain of egg chambers, each one more mature than the preceding, more anterior egg chamber in the chain. Each ovariole is encased in an ovarian sheath. A typical ovary contains about 16 ovarioles.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0064777</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00004894 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00004894">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007137"/>
+        <obo:IAO_0000115>Female germline cyst that forms as the 16-cell cyst moves posteriorly through the germarium, becoming encapsulated in follicle cells (Spradling, 1993). Its formation is completed in germarium region 3, where it buds off from the germarium and progresses posteriorly along the ovariole (Spradling, 1993, Reichmann and Ephrussi, 2001).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:0003199</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>follicle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>germarium derived egg chamber</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00004894</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#FB_gloss"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#RD"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:label>egg chamber</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004894"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Female germline cyst that forms as the 16-cell cyst moves posteriorly through the germarium, becoming encapsulated in follicle cells (Spradling, 1993). Its formation is completed in germarium region 3, where it buds off from the germarium and progresses posteriorly along the ovariole (Spradling, 1993, Reichmann and Ephrussi, 2001).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0064777</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004894"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>follicle</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0089570</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004894"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>germarium derived egg chamber</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0089570</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00004904 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00004904">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00006030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00058238"/>
+        <obo:IAO_0000115>One of the somatic epithelial cells that is either associated with the germline cyst to form an egg chamber or connecting the egg chambers (Jevitt et al., 2020). Some of these cells, particularly main body follicle cells, can form ring canals to connect to one another (Airoldi et al., 2011).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000477</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>syncytial follicle cell</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00004904</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#FB_gloss"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#RD"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:label>follicle cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004904"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>One of the somatic epithelial cells that is either associated with the germline cyst to form an egg chamber or connecting the egg chambers (Jevitt et al., 2020). Some of these cells, particularly main body follicle cells, can form ring canals to connect to one another (Airoldi et al., 2011).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0217092</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0245616</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004904"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>syncytial follicle cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0217092</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00004905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00004905">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004904"/>
+        <obo:IAO_0000115>A follicle cell that migrates from the anterior pole of the egg chamber, between the nurse cells, to the anterior of the oocyte where they participate in formation of the micropyle. About 6-10 border cells per egg chamber migrate as a tightly associated cluster.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000579</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>border cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00004905</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#RD"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:comment>Can be identified based on expression of slbo (Rust et al., 2020).</rdfs:comment>
+        <rdfs:label>border follicle cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004905"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A follicle cell that migrates from the anterior pole of the egg chamber, between the nurse cells, to the anterior of the oocyte where they participate in formation of the micropyle. About 6-10 border cells per egg chamber migrate as a tightly associated cluster.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0064777</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0217092</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0247148</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004905"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>border cell</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0247148</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00005106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00005106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100318"/>
+        <obo:IAO_0000115>Electrically active cell of the nervous system which has an axon and/or dendrite and which is synapsed with other cells and/or has other cells synapsed to it.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000540</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VFB:FBbt_00005106</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>nerve cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>FBbt:00005106</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#EmbDevSlim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#FB_gloss"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#larval_OF"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#scrnaseq_slim"/>
+        <rdfs:label>neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005106"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Electrically active cell of the nervous system which has an axon and/or dendrite and which is synapsed with other cells and/or has other cells synapsed to it.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00005125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00005125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005106"/>
+        <obo:IAO_0000115>A neuron that is entirely confined to the central nervous system and is neither a sensory neuron nor a motor neuron.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000099</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VFB:FBbt_00005125</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>central neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00005125</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#FB_gloss"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#larval_OF"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#scrnaseq_slim"/>
+        <rdfs:label>interneuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005125"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neuron that is entirely confined to the central nervous system and is neither a sensory neuron nor a motor neuron.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0216671</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0247998</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005125"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>central neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0247998</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00005386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00005386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00040006"/>
+        <obo:IAO_0000115>Roundish subunit structure of synaptic neuropil, often ensheathed by glial lamellae and reflecting the terminal arborization domain(s) of one or more neurons.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:0001047</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VFB:FBbt_00005386</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00005386</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#FB_gloss"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#larval_OF"/>
+        <rdfs:label>glomerulus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00006030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00006030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00048491"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100318"/>
+        <obo:IAO_0000115>Somatic cell that is part of the ovariole. This does not include the ovarian sheath.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>somatic cell of ovary</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00006030</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#scrnaseq_slim"/>
+        <rdfs:label>somatic cell of ovariole</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00006030"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Somatic cell that is part of the ovariole. This does not include the ovarian sheath.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FBC:VJ</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FBC:VT</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0218159</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007016"/>
+        <obo:IAO_0000115>Material anatomical entity that has inherent 3D shape, whose parts are all connected and that is generated by coordinated expression of the organism&apos;s own genome.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CARO:0000003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0000061</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007001</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#larval_OF"/>
+        <rdfs:label>anatomical structure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Material anatomical entity that has inherent 3D shape, whose parts are all connected and that is generated by coordinated expression of the organism&apos;s own genome.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:MAH</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007001"/>
+        <obo:IAO_0000115>Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CARO:0000013</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000000</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007002</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#FB_gloss"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#larval_OF"/>
+        <rdfs:label>cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:MAH</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100313"/>
+        <obo:IAO_0000115>Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which, through specific morphogenetic processes, forms a single distinct structural unit demarcated by bona fide boundaries from other distinct structural units of different types.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CARO:0000055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0000481</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007010</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#larval_OF"/>
+        <rdfs:label>multi-tissue structure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Anatomical structure that has as its parts two or more portions of tissue of at least two different types and which, through specific morphogenetic processes, forms a single distinct structural unit demarcated by bona fide boundaries from other distinct structural units of different types.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:MAH</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007002"/>
+        <obo:IAO_0000115>Undifferentiated cell which retains its identity while budding off cells which differentiate.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007014</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#expressionslim_flybase_ribbon"/>
+        <rdfs:label>stem cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007014"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Undifferentiated cell which retains its identity while budding off cells which differentiate.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_10000000"/>
+        <oboInOwl:hasDbXref>CARO:0000006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0000465</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007016</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#larval_OF"/>
+        <rdfs:label>material anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007001"/>
+        <obo:IAO_0000115>A structure consisting of multiple cell components but which is not itself a cell and does not have (complete) cells as a part.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CARO:0001000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0005162</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007060</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#larval_OF"/>
+        <rdfs:label>multi-cell-component structure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007060"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A structure consisting of multiple cell components but which is not itself a cell and does not have (complete) cells as a part.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00004875"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00048491"/>
+        <obo:IAO_0000115>A cyst of female germ cells interconnected by ring canals. Each cyst originates from a single cystoblast which divides to form 16 cyst cells. These become enveloped in a follicle cell epithelium as they pass through region 2 of the germarium. Cysts that have left the germarium are termed egg chambers.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007137</oboInOwl:id>
+        <rdfs:label>female germline cyst</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007137"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cyst of female germ cells interconnected by ring canals. Each cyst originates from a single cystoblast which divides to form 16 cyst cells. These become enveloped in a follicle cell epithelium as they pass through region 2 of the germarium. Cysts that have left the germarium are termed egg chambers.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0064777</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005106"/>
+        <obo:IAO_0000115>Any neuron (FBbt:00005106) that capable of some acetylcholine secretion, neurotransmission (GO:0014055).</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://www.wikidata.org/entity/Q3074571"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-05-15T03:05:53Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00007173</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007173</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#larval_OF"/>
+        <rdfs:label>cholinergic neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007173"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any neuron (FBbt:00005106) that capable of some acetylcholine secretion, neurotransmission (GO:0014055).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:Autogenerated</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007422"/>
+        <obo:IAO_0000115>Antennal lobe projection neuron whose dendrites predominantly innervate a single glomerulus in either one or both antennal lobes (Bates et al., 2020).</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-7073-9172"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-11-11T08:17:44Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00007383</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>uniglomerular PN</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>FBbt:00007383</oboInOwl:id>
+        <rdfs:label>uniglomerular antennal lobe projection neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007383"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Antennal lobe projection neuron whose dendrites predominantly innervate a single glomerulus in either one or both antennal lobes (Bates et al., 2020).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246460</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007392">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00003660"/>
+        <obo:IAO_0000115>An interneuron that projects from some primary sensory neuropil (e.g. the antennal lobe) to a higher brain neuropil.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-7073-9172"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-12-14T01:22:39Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00007392</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>PN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007392</oboInOwl:id>
+        <rdfs:label>projection neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007392"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An interneuron that projects from some primary sensory neuropil (e.g. the antennal lobe) to a higher brain neuropil.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007392"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>PN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0219809</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007422">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007392"/>
+        <obo:IAO_0000115>Interneuron whose dendrite innervates the antennal lobe (larval or adult) and whose axon innervates some higher brain center (generally the mushroom body calyx and/or lateral horn).</obo:IAO_0000115>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-01-06T06:53:45Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00007422</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>olfactory projection neuron</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>FBbt:00007422</oboInOwl:id>
+        <rdfs:label>antennal lobe projection neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007422"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Interneuron whose dendrite innervates the antennal lobe (larval or adult) and whose axon innervates some higher brain center (generally the mushroom body calyx and/or lateral horn).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007422"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>olfactory projection neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0183938</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007438">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00001366"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00050096"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067349"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067350"/>
+        <obo:IAO_0000028>adPN</obo:IAO_0000028>
+        <obo:IAO_0000115>An adult antennal lobe projection neuron that is derived from neuroblast ALad1 (FBbt:00067346). All of these neurons have axons that fasciculate with the medial antennal lobe tract (mALT) and innervate the lateral horn.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00007438</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>adPN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>adult adPN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>adult projection neuron adPN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007438</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#hidden_assertion"/>
+        <rdfs:comment>Generalizations about fasciculation are safe here. But 4 PNs have still not been analyzed: DA4m, DC4, VP2, and VL1. See Yu et al., 2010 for details.</rdfs:comment>
+        <rdfs:label>adult antennal lobe projection neuron adPN</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007438"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000028"/>
+        <owl:annotatedTarget>adPN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246888</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007438"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An adult antennal lobe projection neuron that is derived from neuroblast ALad1 (FBbt:00067346). All of these neurons have axons that fasciculate with the medial antennal lobe tract (mALT) and innervate the lateral horn.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0141667</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0146917</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0205814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0211729</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0221835</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007438"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>adPN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246888</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007440 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007440">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007383"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067123"/>
+        <obo:IAO_0000115>Antennal lobe projection neuron of the adult that has its antennal lobe dendrites mainly concentrated within a single glomerulus (Bates et al., 2020). These neurons form uniform glomerular-shaped arborizations within their target glomerulus (Tanaka et al., 2012).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00007440</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>adult uniglomerular AL PN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007440</oboInOwl:id>
+        <rdfs:comment>Many, but not all are cholinergic (Grabe et al., 2016 - FBrf0233453).</rdfs:comment>
+        <rdfs:label>adult uniglomerular antennal lobe projection neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007440"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Antennal lobe projection neuron of the adult that has its antennal lobe dendrites mainly concentrated within a single glomerulus (Bates et al., 2020). These neurons form uniform glomerular-shaped arborizations within their target glomerulus (Tanaka et al., 2012).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0219809</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246460</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047097"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067123"/>
+        <obo:IAO_0000115>An adult antennal lobe projection neuron that develops from a larval antennal lobe projection neuron (Marin et al., 2005). Axons and dendrites of these neurons are extensively remodeled during metamorphosis (Marin et al., 2005).</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>persistent projection neuron</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>VFB:FBbt_00007456</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>PPN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007456</oboInOwl:id>
+        <rdfs:label>persistent antennal lobe projection neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007456"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An adult antennal lobe projection neuron that develops from a larval antennal lobe projection neuron (Marin et al., 2005). Axons and dendrites of these neurons are extensively remodeled during metamorphosis (Marin et al., 2005).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0183938</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007456"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>PPN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0183938</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005106"/>
+        <obo:IAO_0000115>Any neuron (FBbt:00005106) that capable of part of some sensory perception (GO:0007600).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00007693</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007693</oboInOwl:id>
+        <rdfs:label>sensory system neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007693"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any neuron (FBbt:00005106) that capable of part of some sensory perception (GO:0007600).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:MMC</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007696">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005106"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007693"/>
+        <obo:IAO_0000115>Any neuron (FBbt:00005106) that capable of part of some sensory perception of chemical stimulus (GO:0007606).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00007696</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007696</oboInOwl:id>
+        <rdfs:label>chemosensory system neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007696"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any neuron (FBbt:00005106) that capable of part of some sensory perception of chemical stimulus (GO:0007606).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:MMC</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00007697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00007697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005106"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007696"/>
+        <obo:IAO_0000115>Any neuron (FBbt:00005106) that capable of part of some sensory perception of smell (GO:0007608).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00007697</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00007697</oboInOwl:id>
+        <rdfs:label>olfactory system neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007697"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any neuron (FBbt:00005106) that capable of part of some sensory perception of smell (GO:0007608).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:MMC</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00040005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00040005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007016"/>
+        <obo:IAO_0000115>The part of the neuropil consisting largely of synapsing neuron projections.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-7073-9172"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-08-12T06:32:24Z</terms:date>
+        <oboInOwl:hasDbXref>UBERON:6040005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VFB:FBbt_00040005</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00040005</oboInOwl:id>
+        <rdfs:label>synaptic neuropil</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00040005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The part of the neuropil consisting largely of synapsing neuron projections.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0224194</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00040006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00040006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007060"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00040005"/>
+        <obo:IAO_0000115>Synaptic neuropil region that is a subdivision of a synaptic neuropil domain.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-7073-9172"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-08-12T06:35:41Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00040006</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00040006</oboInOwl:id>
+        <rdfs:label>synaptic neuropil subdomain</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00040006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Synaptic neuropil region that is a subdivision of a synaptic neuropil domain.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0224194</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00047095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00047095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005106"/>
+        <obo:IAO_0000115>A neuron that is part of the adult nervous system. These can be born during the postembryonic phase of neurogenesis (Lacin and Truman, 2016) or they can develop from larval neurons during the pupal stage (Veverytsa and Allan, 2013).</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-1373-1705"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-19T16:52:12Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00047095</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00047095</oboInOwl:id>
+        <rdfs:label>adult neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047095"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neuron that is part of the adult nervous system. These can be born during the postembryonic phase of neurogenesis (Lacin and Truman, 2016) or they can develop from larval neurons during the pupal stage (Veverytsa and Allan, 2013).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0221900</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0231327</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00047097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00047097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005106"/>
+        <obo:IAO_0000115>A neuron that is born during the embryonic phase of neurogenesis. These have functions in the larva (Lacin and Truman, 2016) and may be remodeled during metamorphosis to function during the adult stage (Veverytsa and Allan, 2013). In the larva, neurons of the same primary lineage have stereotyped cell body positions, with later-born primary neurons positioned further from the neuropil, and they share 1-2 fascicles by which they enter the neuropil (Mark et al., 2021).</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-1373-1705"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-21T09:20:52Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00047097</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>embryonic neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>primary lineage neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>embryonic lineage neuron</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>larval neuron</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>FBbt:00047097</oboInOwl:id>
+        <rdfs:label>primary neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047097"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neuron that is born during the embryonic phase of neurogenesis. These have functions in the larva (Lacin and Truman, 2016) and may be remodeled during metamorphosis to function during the adult stage (Veverytsa and Allan, 2013). In the larva, neurons of the same primary lineage have stereotyped cell body positions, with later-born primary neurons positioned further from the neuropil, and they share 1-2 fascicles by which they enter the neuropil (Mark et al., 2021).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0221900</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0231327</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0249021</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047097"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>embryonic neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0231327</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047097"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>embryonic lineage neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0090460</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00047952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00047952">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00003660"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100227"/>
+        <obo:IAO_0000115>Neuron that feeds reward or punishment information into the mushroom body, having presynaptic terminals within the mushroom body and postsynaptic terminals elsewhere. The majority of these cells are octopaminergic or dopaminergic.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-1373-1705"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-15T10:48:43Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00047952</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>MBIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mushroom body modulatory neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00047952</oboInOwl:id>
+        <rdfs:label>mushroom body input neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047952"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Neuron that feeds reward or punishment information into the mushroom body, having presynaptic terminals within the mushroom body and postsynaptic terminals elsewhere. The majority of these cells are octopaminergic or dopaminergic.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0167800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0236359</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0238440</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047952"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>MBIN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0238440</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047952"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>mushroom body modulatory neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0245294</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00047957 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00047957">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00003660"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047952"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00052046"/>
+        <obo:IAO_0000115>Adult neuron that feeds reward or punishment information into the mushroom body, having presynaptic terminals within the mushroom body and postsynaptic terminals elsewhere. The majority of these cells are octopaminergic or dopaminergic (Schwaerzel et al., 2003).</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-1373-1705"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-15T11:37:50Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00047957</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>adult MBIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00047957</oboInOwl:id>
+        <rdfs:label>adult mushroom body input neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047957"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Adult neuron that feeds reward or punishment information into the mushroom body, having presynaptic terminals within the mushroom body and postsynaptic terminals elsewhere. The majority of these cells are octopaminergic or dopaminergic (Schwaerzel et al., 2003).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0167800</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00048491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00048491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_10000000"/>
+        <obo:IAO_0000115>Anatomical entity of the female that is not found in the same form in the male. If there is a counterpart in the male, the male and female types are substantially different.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-1373-1705"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-11T11:00:00Z</terms:date>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00048491</oboInOwl:id>
+        <rdfs:comment>For example, the ovary is female-specific since it is substantially different to the testis, which may be considered to be the male-specific counterpart. A female wing is not substantially different to a male wing, so is not considered female-specific.</rdfs:comment>
+        <rdfs:label>female-specific anatomical entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00048491"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Anatomical entity of the female that is not found in the same form in the male. If there is a counterpart in the male, the male and female types are substantially different.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:CP</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00049427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00049427">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00003660"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00052046"/>
+        <obo:IAO_0000115>Adult extrinsic neuron that has substantial output in the lateral horn (Frechter et al., 2019).</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-1373-1705"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-30T14:28:34Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00049427</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>adult LH input neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>adult LHIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>adult lateral horn input PN</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00049427</oboInOwl:id>
+        <rdfs:comment>Asserted to be &apos;projection neuron&apos; as no known direct sensory input to LH [FBC:CP, FBC:MMC].</rdfs:comment>
+        <rdfs:label>adult lateral horn input neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00049427"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Adult extrinsic neuron that has substantial output in the lateral horn (Frechter et al., 2019).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0242628</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00049427"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>adult LH input neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0242628</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00049427"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>adult LHIN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0242477</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00049427"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>adult lateral horn input PN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0242628</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00050096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00050096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005106"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047095"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100654"/>
+        <obo:IAO_0000115>Any neuron (FBbt:00005106) that is part of some adult nervous system (FBbt:00003559) and develops from some neuroblast ALad1 (FBbt:00067346).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00050096</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>adult BAmv3 lineage neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>adult adNB lineage neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>adult adPN lineage neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00050096</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#TL_lineage_clone"/>
+        <rdfs:label>adult ALad1 lineage neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00050096"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any neuron (FBbt:00005106) that is part of some adult nervous system (FBbt:00003559) and develops from some neuroblast ALad1 (FBbt:00067346).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0221412</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0221438</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00050096"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>adult BAmv3 lineage neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0194268</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00050096"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>adult adNB lineage neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0141667</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00050096"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>adult adPN lineage neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0146917</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00051292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00051292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067500"/>
+        <obo:IAO_0000115>Glomerulus of the adult antennal lobe that receives input from olfactory neurons. There are approximately 51 of these per hemisphere (Bates et al., 2020).</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-1373-1705"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-24T10:19:13Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00051292</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00051292</oboInOwl:id>
+        <rdfs:label>adult olfactory antennal lobe glomerulus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00051292"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Glomerulus of the adult antennal lobe that receives input from olfactory neurons. There are approximately 51 of these per hemisphere (Bates et al., 2020).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246456</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246460</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00051298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00051298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007392"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007697"/>
+        <obo:IAO_0000115>Neuron that relays information from olfactory neurons to higher brain centers.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-1373-1705"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-24T10:53:49Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00051298</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>olfactory PN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00051298</oboInOwl:id>
+        <rdfs:label>olfactory projection neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00051298"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Neuron that relays information from olfactory neurons to higher brain centers.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246456</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00051299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00051299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00051298"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00052046"/>
+        <obo:IAO_0000115>Adult neuron that relays olfactory (smell) information from one or more sensory neuropil regions to one or more higher brain centers.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-1373-1705"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-25T13:22:47Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00051299</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>adult olfactory PN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00051299</oboInOwl:id>
+        <rdfs:label>adult olfactory projection neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00051299"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Adult neuron that relays olfactory (smell) information from one or more sensory neuropil regions to one or more higher brain centers.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:CP</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00052046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00052046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005125"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047095"/>
+        <obo:IAO_0000115>Any interneuron (FBbt:00005125) that is part of some adult (FBbt:00003004).</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-1373-1705"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-13T15:30:40Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00052046</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00052046</oboInOwl:id>
+        <rdfs:label>adult interneuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00052046"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any interneuron (FBbt:00005125) that is part of some adult (FBbt:00003004).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:Autogenerated</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00058205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00058205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007173"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047095"/>
+        <obo:IAO_0000115>Any cholinergic neuron (FBbt:00007173) that is part of some adult nervous system (FBbt:00003559).</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-6095-8718"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-03T18:57:00Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00058205</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00058205</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:label>adult cholinergic neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00058205"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any cholinergic neuron (FBbt:00007173) that is part of some adult nervous system (FBbt:00003559).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:Autogenerated</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00058238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00058238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00000124"/>
+        <obo:IAO_0000115>Any epithelial cell (FBbt:00000124) that is part of some adult (FBbt:00003004).</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-6095-8718"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-27T11:38:48Z</terms:date>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00058238</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <rdfs:label>adult epithelial cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00058238"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any epithelial cell (FBbt:00000124) that is part of some adult (FBbt:00003004).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:Autogenerated</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00067123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00067123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00052046"/>
+        <obo:IAO_0000115>Interneuron whose dendrite innervates the antennal lobe and whose axon innervates some higher brain center - generally the mushroom body calyx and/or the lateral horn.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>FBbt:00003990</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>VFB:FBbt_00067123</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>PN</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>relay interneuron</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>FBbt:00067123</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#hidden_assertion"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#olfactory_system_draft"/>
+        <rdfs:label>adult antennal lobe projection neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067123"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Interneuron whose dendrite innervates the antennal lobe and whose axon innervates some higher brain center - generally the mushroom body calyx and/or the lateral horn.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0051437</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067123"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>relay interneuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0051437</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00067349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00067349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100654"/>
+        <obo:IAO_0000115>Any antennal lobe projection neuron (FBbt:00007422) that develops from some neuroblast ALad1 (FBbt:00067346).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00067349</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ad PN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>adPN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00067349</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#olfactory_system_draft"/>
+        <rdfs:label>antennal lobe projection neuron adPN</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067349"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any antennal lobe projection neuron (FBbt:00007422) that develops from some neuroblast ALad1 (FBbt:00067346).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0141667</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0146917</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0205814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0211729</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00067350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00067350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067123"/>
+        <obo:IAO_0000115>Adult antennal lobe projection neuron that fasciculates with the medial antennal lobe tract. There are about 100 of these per tract. Most (all?) of these neurons arborize extensively in the mushroom body calyx, whilst the accessory calyx is free from termini. These neurons are cholinergic (Yasuyama et al., 2003).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FlyBrain_NDB:10448</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VFB:FBbt_00067350</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>AL-mPN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>antennal lobe projection neuron iPN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>iACT projection neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>iPN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inner antennocerebral tract projection neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mALT projection neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00067350</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#olfactory_system_draft"/>
+        <rdfs:label>medial antennal lobe tract projection neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067350"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Adult antennal lobe projection neuron that fasciculates with the medial antennal lobe tract. There are about 100 of these per tract. Most (all?) of these neurons arborize extensively in the mushroom body calyx, whilst the accessory calyx is free from termini. These neurons are cholinergic (Yasuyama et al., 2003).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0167816</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0191055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0203179</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0205263</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067350"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>AL-mPN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0219809</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067350"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>iACT projection neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBrain_NDB:10448</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00067353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00067353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007383"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007456"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00047957"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00049427"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00051299"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00058205"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100368"/>
+        <obo:IAO_0000028>DL1_adPN</obo:IAO_0000028>
+        <obo:IAO_0000115>Adult uniglomerular antennal lobe projection neuron from the ad neuroblast (ALad1) lineage whose dendrites mainly innervate antennal lobe glomerulus DL1. Neurons of this class are derived from the first larval division of the neuroblast ALad1 (FBbt:00067346) (Yu et al., 2010). The axons of these neurons innervate a small area at the ventroposterior edge of the lateral horn. There are around two of these per hemisphere and they fasciculate with the medial antennal lobe tract and they are cholinergic (Bates et al., 2020).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FlyBrain_NDB:10489</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VFB:FBbt_00067353</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>DL1 adPN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DL1_adPN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>iACT (DL1)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mALT (DL1)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mAPT (DL1)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00067353</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#olfactory_system_draft"/>
+        <rdfs:comment>For image, see FlyBase:FBrf0211729.</rdfs:comment>
+        <rdfs:label>adult antennal lobe projection neuron DL1 adPN</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067353"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Adult uniglomerular antennal lobe projection neuron from the ad neuroblast (ALad1) lineage whose dendrites mainly innervate antennal lobe glomerulus DL1. Neurons of this class are derived from the first larval division of the neuroblast ALad1 (FBbt:00067346) (Yu et al., 2010). The axons of these neurons innervate a small area at the ventroposterior edge of the lateral horn. There are around two of these per hemisphere and they fasciculate with the medial antennal lobe tract and they are cholinergic (Bates et al., 2020).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0141667</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0174482</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0183938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0195086</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0211729</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246460</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067353"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>iACT (DL1)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0174482</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067353"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>mAPT (DL1)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FlyBrain_NDB:10489</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00067500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00067500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00003925"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005386"/>
+        <obo:IAO_0000115>Glomerulus of the adult antennal lobe, defined by the output terminals of specific sets of sensory neurons (Bates et al., 2020).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00067500</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00067500</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#olfactory_system_draft"/>
+        <rdfs:comment>Many former &apos;compartments&apos; now modeled as glomeruli in their own right following Bates et al. (2020) EM paper term usage.</rdfs:comment>
+        <rdfs:label>adult antennal lobe glomerulus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00067500"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Glomerulus of the adult antennal lobe, defined by the output terminals of specific sets of sensory neurons (Bates et al., 2020).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246456</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0246460</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00100227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00100227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00003660"/>
+        <obo:IAO_0000115>Neuron that innervates the mushroom body and other neuropils.</obo:IAO_0000115>
+        <dc:contributor>FBC:sr544</dc:contributor>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-09-09T02:23:26Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00100227</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>MBE neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MBEN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00100227</oboInOwl:id>
+        <rdfs:label>mushroom body extrinsic neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100227"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Neuron that innervates the mushroom body and other neuropils.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:SPR</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100227"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>MBE neuron</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0238440</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100227"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>MBEN</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0205263</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00100313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00100313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007001"/>
+        <obo:IAO_0000115>Anatomical structure that has multiple cells as parts.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-7073-9172"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-02T02:25:04Z</terms:date>
+        <oboInOwl:hasDbXref>UBERON:0010000</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00100313</oboInOwl:id>
+        <rdfs:label>multicellular structure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100313"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Anatomical structure that has multiple cells as parts.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBC:DOS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00100318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00100318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007002"/>
+        <terms:contributor rdf:resource="http://orcid.org/0000-0002-7073-9172"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-04T08:35:02Z</terms:date>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00100318</oboInOwl:id>
+        <rdfs:label>somatic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00100368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00100368">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007383"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007438"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00007440"/>
+        <obo:IAO_0000115>An adult uniglomerular antennal lobe projection neuron that is derived from the neuroblast ALad1 (FBbt:00067346). All of these neurons have axons that fasciculate with the medial antennal lobe tract (mALT) and except for V adPN neurons, innervate the mushroom body calyx (via a collateral) and the lateral horn.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>VFB:FBbt_00100368</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>adult uniglomerular adPN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>adult uniglomerular anterodorsal antennal lobe projection neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00100368</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#hidden_assertion"/>
+        <rdfs:comment>Generalizations about fasciculation are safe here. But the 4 PNs have still not been analyzed: DA4m, DC4, VP2, and VL1. See Yu et al., 2010 for details.</rdfs:comment>
+        <rdfs:label>adult uniglomerular antennal lobe projection neuron adPN</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100368"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An adult uniglomerular antennal lobe projection neuron that is derived from the neuroblast ALad1 (FBbt:00067346). All of these neurons have axons that fasciculate with the medial antennal lobe tract (mALT) and except for V adPN neurons, innervate the mushroom body calyx (via a collateral) and the lateral horn.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0141667</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0146917</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0205814</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0211729</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FlyBase:FBrf0221835</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_00100654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_00100654">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbt_00005106"/>
+        <obo:IAO_0000115>Neuron developing from the ALad1 (BAmv3) neuroblast.</obo:IAO_0000115>
+        <dc:contributor>FBC:sr544</dc:contributor>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-07-12T09:40:36Z</terms:date>
+        <oboInOwl:hasDbXref>VFB:FBbt_00100654</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>BAmv3 lineage neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>FBbt:00100654</oboInOwl:id>
+        <rdfs:label>ALad1 lineage neuron</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_00100654"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Neuron developing from the ALad1 (BAmv3) neuroblast.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0194268</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0221412</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FlyBase:FBrf0221438</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbt_10000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbt_10000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <obo:IAO_0000115>Anatomical entity which is part_of Drosophila melanogaster.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>FBbt_root:00000000</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>UBERON:0001062</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>fly_anatomy.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Drosophila</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>FBbt:10000000</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#EmbDevSlim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#cur"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/fbbt#larval_OF"/>
+        <rdfs:label>anatomical entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FBbt_10000000"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Anatomical entity which is part_of Drosophila melanogaster.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARO:MAH</oboInOwl:hasDbXref>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
